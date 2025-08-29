@@ -1,0 +1,354 @@
+/* css ni boshladik */
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+img {
+  max-width: 100%;
+  object-fit: cover;
+}
+.div_pedding {
+  display: flex;
+  align-items: center;
+  width: 1000px;
+  justify-content: space-between;
+  margin: auto;
+  padding: 30px;
+}
+.text {
+  padding: 20px;
+  font-size: 23px;
+}
+.p {
+  font-size: 30px;
+  font-weight: 900;
+}
+.search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 100%;
+}
+
+.flex {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.img__width {
+  width: 90px;
+}
+.about-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.p {
+  font-size: 40px;
+}
+.img {
+  width: 800px;
+}
+.div__flex {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+.scroll-button {
+  font-size: 20px;
+  text-align: center;
+  padding: 20px;
+  cursor: pointer;
+}
+.center {
+  text-align: center;
+  font-size: 35px;
+  margin: 10px;
+  color: black;
+}
+.h2_center {
+  text-align: center;
+}
+.button {
+  cursor: pointer;
+  display: block;
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  bottom: 45%;
+  border: 6px solid wheat;
+  border-radius: 100%;
+  background-color: transparent;
+  color: white;
+}
+.services {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  margin: 20px;
+  gap: 20px;
+}
+.service2 {
+  width: 300px;
+  height: 200px;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: aliceblue;
+}
+.service {
+  width: 300px;
+  height: 200px;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: aliceblue;
+}
+.my {
+  text-align: center;
+  padding: 20px;
+  font-size: 30px;
+  cursor: pointer;
+}
+.hire-content {
+  display: flex;
+}
+.form {
+  background-color: black;
+  width: 200px;
+  height: 200px;
+}
+.input {
+  color: white;
+  border: 0;
+  margin: 30px;
+  font-size: 24px;
+  padding: 10px;
+  background-color: #333333;
+}
+.supmit {
+  background-color: blue;
+  color: white;
+  font-style: italic;
+  font-size: 20px;
+  display: block;
+}
+.h2 {
+  font-size: 30px;
+  text-align: center;
+  padding: 29px;
+}
+.te
+.portfolio-filter {
+  font-size: 20px;
+  text-align: center;
+}
+.grid-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.a {
+  color: white;
+  font-size: 20px;
+}
+.div__black {
+  background-color: black;
+  padding: 150px 180px;
+  color: white;
+}
+.contact-btn {
+  background-color: white;
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 20px;
+  display: block;
+  width: 101px;
+  margin: 20px;
+}
+.div__center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+}
+.social-links {
+  margin: auto;
+  justify-content: space-between;
+  width: 500px;
+  display: flex;
+  color: white;
+}
+.acer {
+  font-size: 50px;
+  color: black;
+}
+.active {
+  font-size: 50px;
+  text-align: center;
+  color: red;
+}
+.pagination {
+  text-align: center;
+}
+.client-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  gap: 23px;
+  font-size: 30px;
+}
+.span1{
+  font-size: 50px;
+}
+.client-info {
+  margin-top: 130px;
+  font-style: italic;
+  font-size: 23px;
+}
+
+.blog-grid {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+}
+.blog-post {
+  background-color: black;
+  border-radius: 10px;
+  color: white;
+}
+.post-info {
+  margin-bottom: 40px;
+  font-size: 25px;
+  padding: 10px;
+  width: 300px;
+}
+.span {
+  background-color: transparent;
+}
+.stats-grid {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  font-size: 25px;
+  justify-content: center;
+  padding: 70px;
+}
+.hire-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  padding: 30px;
+}
+.form {
+  padding: 60px 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+  height: 500px;
+  background-color: #333333;
+}
+.acer2 {
+  font-size: 20px;
+  color: black;
+}
+.div__container {
+  display: flex;
+  width: 1600px;
+  font-size: 30px;
+  align-items: center;
+  justify-content: center;
+  padding: 90px;
+}
+.footer__div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* //*mediani boshlayman// */
+@media screen and (max-width: 1420px) {
+  .about-content {
+    flex-wrap: wrap;
+    padding: 10px;
+    row-gap: 30px;
+  }
+  .scroll-button {
+    flex-wrap: wrap;
+  }
+  .services {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .service {
+    width: 999px;
+  }
+  .d {
+    width: 999px;
+  }
+  .play-button {
+    translate: 5% 340%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .grid-container {
+    flex-wrap: wrap;
+  }
+  .client-image {
+    flex-wrap: wrap;
+  }
+  .p2 {
+    font-size: 20px;
+  }
+  .menu {
+    display: none;
+  }
+  .social-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .stats-grid {
+    font-size: 20px;
+    font-weight: 200;
+  }
+  .start-item {
+    font-size: 20px;
+  }
+  .text {
+    padding: 40px;
+    width: 700px;
+  }
+  .footer {
+    display: flex;
+    align-items: center;
+  }
+  .social-links {
+    gap: 20px;
+  }
+  .blog-grid {
+    flex-wrap: wrap;
+  }
+  .hire-content {
+    flex-wrap: wrap;
+    row-gap: 30px;
+    font-size: 30px;
+  }
+  .p1 {
+    margin: 14px;
+  }
+  .center {
+    font-weight: 200;
+    font-size: 20px;
+  }
+}
+/* mediani tugataman */
